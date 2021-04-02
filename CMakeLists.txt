@@ -1,7 +1,13 @@
 cmake_minimum_required(VERSION 3.17)
 project(hw04)
 
+
+
 set(CMAKE_CXX_STANDARD 14)
+
+find_package(SDL2 REQUIRED)
+
+include_directories(${SDL2_INCLUDE_DIRS})
 
 include_directories(src/glad)
 include_directories(src/glm)
@@ -445,3 +451,6 @@ add_executable(hw04
         src/CubeLit1VBO.cpp
         src/ModelLoad.cpp
         src/TriangleColored.cpp)
+
+include_directories(hw04 ${SDL2_INCLUDE_DIRS})
+target_link_libraries(hw04 ${SDL2_LIBRARIES})

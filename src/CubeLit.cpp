@@ -3,13 +3,8 @@
 
 
 #include "glad/glad.h"  //Include order can matter here
-#ifdef __APPLE__
- #include <SDL2/SDL.h>
- #include <SDL2/SDL_opengl.h>
-#else
- #include <SDL.h>
- #include <SDL_opengl.h>
-#endif
+#include <SDL.h>
+#include <SDL_opengl.h>
 #include <cstdio>
 
 //For Visual Studios
