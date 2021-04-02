@@ -1,7 +1,7 @@
 //CSCI 5607 OpenGL Tutorial (HW 4)
 //Loading 3D Models
 
-#include "glad/glad.h"  //Include order can matter here
+#include "glad.h"  //Include order can matter here
 #include <SDL.h>
 #include <SDL_opengl.h>
 #include <cstdio>
@@ -12,9 +12,9 @@
 #endif
 
 #define GLM_FORCE_RADIANS
-#include "glm/glm.hpp"
-#include "glm/gtc/matrix_transform.hpp"
-#include "glm/gtc/type_ptr.hpp"
+#include "glm.hpp"
+#include "gtc/matrix_transform.hpp"
+#include "gtc/type_ptr.hpp"
 
 #include <cstdio>
 #include <iostream>

@@ -1,7 +1,7 @@
 //CSCI 5607 OpenGL Tutorial (HW 4)
 //1 - Blank Screen
 
-#include "glad/glad.h"  //Include order can matter here
+#include "glad.h"  //Include order can matter here
 #include <SDL.h>
 #include <SDL_opengl.h>
 #include <cstdio>
