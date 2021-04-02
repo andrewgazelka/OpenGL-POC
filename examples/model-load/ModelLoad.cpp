@@ -110,7 +110,8 @@ int main(int argc, char *argv[]){
   }
 
   ifstream modelFile;
-	modelFile.open("models/teapot.txt");
+  modelFile.open("models/triangle.txt");
+//	modelFile.open("models/teapot.txt");
 	int numLines = 0;
 	modelFile >> numLines;
 	float* modelData = new float[numLines];
