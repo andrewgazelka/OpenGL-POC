@@ -17,6 +17,7 @@ include_directories(lib/glm/simd)
 
 add_subdirectory(examples/triangle-colored)
 add_subdirectory(examples/model-load)
+add_subdirectory(examples/blank-screen)
 add_subdirectory(examples/cube-lit1-vbo)
 add_subdirectory(examples/cube-lit)
 add_subdirectory(examples/cube3d)
